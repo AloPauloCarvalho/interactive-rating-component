@@ -9,6 +9,30 @@
     text-align: left;
 }
 
+.thankYouPanel {
+    background: #1e242e;
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+}
+
+.selected {
+    color: #fb7b19;
+    background-color: #272e3f;
+
+    display: inline-block;
+
+    font-size: 14px;
+    padding: .25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2rem;
+}
+
 .star {
     background-color: #272e3f;
     border-radius: 100%;
@@ -69,4 +93,10 @@
 .submit:hover{
     background-color: white;
     color: #fb7b19;
+}
+
+.submit:disabled{
+    background-color: gray;
+    color: darkgray;
+    cursor: not-allowed;
 }
